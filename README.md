@@ -3,7 +3,7 @@
 
 <img src="sim_gifs/td.gif" alt="trspt_disc" width="23%"></img> <img src="sim_gifs/bs.gif" alt="burg_sin" width="23.5%"></img> <img src="sim_gifs/idp.gif" alt="id_pol" width="24%"></img> <img src="sim_gifs/nip.gif" alt="ni_pol" width="25.5%">
 
-- Physics-Informed Neural Network <br>
+- Physics-Informed Neural Network  ([Best paper at IEEE ICCCNP 2025](PINN_Kuramoto/README.md)) <br>
 
 <img src="sim_gifs/idp_nn.gif" alt="id_pol_nn" width="25%"></img> 
 

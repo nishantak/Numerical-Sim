@@ -42,10 +42,20 @@ get_param()
         1 : U_0(x_j) = ((thet >= pi/4) && (thet < pi/2) && (om >= 0) && (om <= 1)) * (64/3*pi^2) * thet*om ;
                      = 0 ,  else
 '''
-initialise(U, 1)
+initialise(U, 2)
 
+'''
+    simulate() function takes 1 input, the vector U and runs the simulation for the given number of time steps.
+'''
+from time import time
+start = time()
 simulate(U)
+end = time()
+print("\nTime taken for simulation:", end-start, "seconds\n")
 
+'''
+    calculate_tv() function takes 1 input, the vector U and returns the total variation of the solution.
+'''
 print("\nTotal Variation:", calculate_tv(U), "\n")
 
 plot()
